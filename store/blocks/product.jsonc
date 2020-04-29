@@ -26,7 +26,10 @@
     "children": [
       "product-images",
       "product-brand"
-    ],
+    ]
+    
+  },
+  "product-images":{
     "props":{
       "displayMode": "logo",
       "height": 30
@@ -42,13 +45,6 @@
       "buy-button"
     ]
   },
-
-// "flex-layout.row": {
-//     "children": [ 
-//     "product-price",
-//     "flex-layout.row#qty-sku"
-//   ]
-// },
   "flex-layout.row#qty-sku": {
     "children": [
       "sku-selector",
