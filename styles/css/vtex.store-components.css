@@ -1,4 +1,4 @@
-.infoCard {
+.infoCardContainer {
     max-width: 1260px;
     margin: 0 auto;
     padding: 0;
@@ -9,21 +9,20 @@
     font-family: serif;
     font-size: 2.25rem;
     font-weight: bold;
-    color: gray;
+    color: black;
     border: 2px solid black;
     padding: 24px;
     
 }
 
 .infoCardCallActionContainer :global(.vtex-button) {
-    color: black;
+    color: white;
     background-color: gray;
     border: transparent;
-    
 }
 
 .infoCardCallActionContainer :global(.vtex-button):hover {
-    color: black;
+    color: gray;
     background-color: white;
     border: transparent;
 }
