@@ -23,13 +23,13 @@
     "children": [
       "product-name",
       "product-identifier.product",
-      "flex-layout.row#line",
+      "flex-layout.row",
       "shipping-simulator",
       "buy-button"
     ]
   },
 
-"flex-layout.row#line": {
+"flex-layout.row": {
     "children": [ 
     "product-price",
     "flex-layout.row#qty-sku"
