@@ -6,8 +6,6 @@
       "shelf.relatedProducts"
     ]
   },
-
-
   "flex-layout.row#main": { 
     "props": { 
       "marginTop": 6
@@ -27,7 +25,6 @@
       "product-images",
       "product-brand"
     ]
-    
   },
   "product-images":{
     "props":{
@@ -49,7 +46,11 @@
     "children": [
       "sku-selector",
       "product-quantity"
-    ]
+    ],
+    "props": {
+      "showValueForVariation":"none",
+      "showVariationsLabels":true
+    }
   },
   "sku-selector": {
     "props": {
