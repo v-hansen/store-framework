@@ -23,18 +23,19 @@
     "children": [
       "product-name",
       "product-identifier.product",
-      "flex-layout.row",
+      "product-price",
+      "flex-layout.row#qty-sku",
       "shipping-simulator",
       "buy-button"
     ]
   },
 
-"flex-layout.row": {
-    "children": [ 
-    "product-price",
-    "flex-layout.row#qty-sku"
-  ]
-},
+// "flex-layout.row": {
+//     "children": [ 
+//     "product-price",
+//     "flex-layout.row#qty-sku"
+//   ]
+// },
   "flex-layout.row#qty-sku": {
     "children": [
       "sku-selector",
