@@ -2,7 +2,7 @@
   "store.home": {
     "blocks": [
       "flex-layout.row",
-      "store.shelf"
+      "shelf"
     ]
   },
   
